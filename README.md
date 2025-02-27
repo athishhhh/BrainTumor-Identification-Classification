@@ -52,17 +52,3 @@ This project demonstrates the effectiveness of **deep learning** in **brain tumo
 
 ---
 
-## Installation & Usage
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/BrainTumor-Identification-Classification.git
-
-# Navigate to the project directory
-cd BrainTumor-Identification-Classification
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the model training script
-python train.py
