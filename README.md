@@ -18,10 +18,24 @@ Brain tumor classification and detection using deep learning models (**CNN, CNN-
 
 ## Model Architectures
 
-- **CNN:** Extracts spatial features for static MRI classification
+-### **1. CNN (Convolutional Neural Network)**
+- Extracts spatial features for **static MRI classification**.
+- Uses convolutional layers for feature detection and max-pooling for downsampling.
+- **Accuracy:** **94.2%** (Best for spatial feature extraction).
+  
   ![image alt](https://github.com/athishhhh/BrainTumor-Identification-Classification/blob/5f41719f47fa793f7cdd7334a57cc6a4a68096a7/CNN.webp)
-- **CNN + LSTM:** Captures spatial and temporal dependencies for sequence analysis  
-- **U-Net:** Uses an encoder-decoder structure for enhanced tumor segmentation
+
+  
+### **2. CNN + LSTM (Hybrid Model)**
+- Captures **both spatial and temporal dependencies** in MRI sequences.
+- CNN extracts spatial features; LSTM processes MRI sequences over time.
+- **Accuracy:** **83.08%** (Best for analyzing MRI sequences).
+  
+### **3. U-Net (Encoder-Decoder Segmentation Model)**
+- Designed for **precise tumor segmentation**.
+- Encoder extracts features; decoder reconstructs tumor regions with skip connections.
+- **Accuracy:** **86.08%** (Best for tumor segmentation).
+  
   ![image alt](https://github.com/athishhhh/BrainTumor-Identification-Classification/blob/e4ce502bcbef17db6e3e9567d25d985c971da8ef/u-net.webp)
 
 ---
