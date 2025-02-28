@@ -18,7 +18,8 @@ Brain tumor classification and detection using deep learning models (**CNN, CNN-
 
 ## Model Architectures
 
-- **CNN:** Extracts spatial features for static MRI classification  
+- **CNN:** Extracts spatial features for static MRI classification
+  ![image alt](https://github.com/athishhhh/BrainTumor-Identification-Classification/blob/5f41719f47fa793f7cdd7334a57cc6a4a68096a7/CNN.webp)
 - **CNN + LSTM:** Captures spatial and temporal dependencies for sequence analysis  
 - **U-Net:** Uses an encoder-decoder structure for enhanced tumor segmentation  
 
