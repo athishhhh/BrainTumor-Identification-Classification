@@ -13,6 +13,7 @@ Brain tumor classification and detection using deep learning models (**CNN, CNN-
   - Normalization  
   - One-hot encoding  
   - Data splitting  
+![image alt](https://github.com/athishhhh/BrainTumor-Identification-Classification/blob/4887dc9cd703e9e25c9209c0363b6e16effa40b0/dataset-f.png)
 
 ---
 
