@@ -6,7 +6,12 @@ Brain tumor classification and detection using deep learning models (**CNN, CNN-
 
 ## Dataset & Preprocessing
 
-- **Dataset Sources:** Figshare, SARTAJ, and Br35H (**7,023 MRI images**)
+**Dataset Sources:** (**7,023 MRI images**)  
+  - [Figshare](https://figshare.com/articles/dataset/brain_tumor_dataset/1512427)
+  - [SARTAJ (Kaggle)](https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri)  
+  - [Br35H (Kaggle)](https://www.kaggle.com/datasets/ahmedhamada0/brain-tumor-detection)
+
+    
 - **Preprocessing Steps:**  
   - Resizing  
   - Grayscale conversion  
